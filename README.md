@@ -1,51 +1,78 @@
-AI Virtual Mouse using Hand Gesture Recognition
-This project allows you to control your computer's mouse cursor using hand gestures captured through your webcam. Move your hand to move the cursor, and pinch your fingers together to click. It's an intuitive, touch-free way to interact with your computer.
+# 🖱️ AI Virtual Mouse using Hand Gesture Recognition  
 
-Features
-Cursor Control: Move your index finger to move the mouse cursor across the screen.
+Control your computer’s mouse cursor using **hand gestures** captured through your webcam!  
+Move your hand to move the cursor, and pinch your fingers together to click.  
+It’s an **intuitive, touch-free way** to interact with your computer.  
 
-Clicking: Pinch your index and middle fingers together to perform a left-click.
+---
 
-Real-Time Interaction: The application uses computer vision to track your hand movements in real-time.
+## 🚀 Features  
+- 🎯 **Cursor Control** – Move your **index finger** to move the mouse cursor.  
+- 🖐️ **Clicking** – Pinch your **index + middle fingers** together to perform a left-click.  
+- ⚡ **Real-Time Tracking** – Uses computer vision to track hand gestures instantly.  
+- ⚙️ **Customizable** – Adjust screen resolution, cursor smoothing, and sensitivity.  
 
-Customizable: Easily adjust settings like screen resolution and cursor smoothing in the code.
+---
 
-Requirements
-To run this project, you'll need to have Python installed on your system, along with the following libraries:
+## 🛠️ Requirements  
 
-opencv-python: For capturing and processing video from your webcam.
+Make sure you have **Python 3.x** installed, then install the dependencies:  
 
-cvzone: A library that simplifies hand tracking with MediaPipe.
-
-pynput: To control the mouse.
-
-numpy: For numerical operations, specifically for mapping coordinates.
-
-You can install all the required libraries by running this command in your terminal:
-
+```bash
 pip install opencv-python cvzone pynput numpy
+```
 
-How to Use
-Clone or Download the Repository:
+### Libraries Used
+- **OpenCV (opencv-python)** – Webcam capture & image processing  
+- **cvzone** – Simplifies hand tracking with MediaPipe  
+- **pynput** – Mouse control  
+- **NumPy** – Coordinate mapping & calculations  
 
-git clone [https://github.com/YOUR_USERNAME/AI-Virtual-Mouse.git](https://github.com/YOUR_USERNAME/AI-Virtual-Mouse.git)
-cd AI-Virtual-Mouse
+---
 
-Run the Script:
-Execute the main Python script from your terminal:
+## ▶️ How to Run  
 
-python main.py
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/AI-Virtual-Mouse.git
+   cd AI-Virtual-Mouse
+   ```
 
-Interact:
+2. **Run the Script**  
+   ```bash
+   python main.py
+   ```
 
-A window will open showing your webcam feed.
+3. **Interact with the Mouse**  
+   - A webcam window will appear.  
+   - Show your **hand to the camera**.  
+   - Move your **index finger** → control the mouse pointer.  
+   - Bring your **index & middle finger together** → left-click.  
 
-Hold your hand up so the camera can see it.
+4. **Exit**  
+   - Press **`q`** while the webcam window is active to close the program.  
 
-Move your index finger to control the mouse pointer.
+---
 
-Bring your middle finger close to your index finger to simulate a click.
+## 📂 Project Structure  
+```
+AI-Virtual-Mouse/
+│── main.py          # Main script to run the project
+│── README.md        # Project documentation
+```
 
-Exit the Application:
+---
 
-To stop the program, make sure the webcam window is active and press the 'q' key.
+## 📌 Future Improvements  
+- ✨ Right-click & double-click gestures  
+- ✨ Scroll functionality  
+- ✨ Multi-hand support  
+- ✨ Gesture customization via config file  
+
+---
+
+## 🙌 Acknowledgements  
+- [OpenCV](https://opencv.org/)  
+- [cvzone](https://pypi.org/project/cvzone/)  
+- [pynput](https://pypi.org/project/pynput/)  
+- [NumPy](https://numpy.org/)  
